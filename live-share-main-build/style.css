@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'VT323';
+    src: url(fonts/VT323-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('fonts/JosefinSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('fonts/JosefinSans-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#navBar {
+    background-color: #337D96;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'VT323', monospace;
+
+    a{
+        padding: 5px;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.column {
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 300px;
+}
+
+#photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+h1 {
+    background-color: #349BBD;
+    padding: 8px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'VT323', monospace;
+}
+
+body { 
+    background-color: antiquewhite;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: rgb(68, 74, 74);
+}
+
+.name {
+     font-size: 18px;
+    background-color: #337D96;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.facts{
+    padding: 8px;
+    background-color: #175d74;
+    color: white;
+}
+
+#gitLinks {
+    background-color: #349BBD;
+    padding: 20px;
+}
+
+.loganGit {
+    background-color: #349BBD;
+    padding: 20px;
+}
+.carlosGit {
+    background-color: #2a7892;
+    padding: 20px;
+}
+.tahmidGit {
+    background-color: #349BBD;
+    padding: 20px;
+}
